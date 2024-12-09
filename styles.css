@@ -1,0 +1,39 @@
+:root {
+    --primary-color: #000;
+    --secondary-color: #fff;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.nav-link {
+    color: var(--secondary-color) !important;
+}
+
+.nav-link:hover {
+    color: #ccc !important;
+}
+
+.jumbotron {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    color: var(--primary-color);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px 0;
+}
